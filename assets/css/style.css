@@ -15,33 +15,49 @@ header {
 header > div:nth-child(1) {
   background-color: #e6e6e6;
 }
-
 header > h1 {
   background-color: var(--color-secundario);
+  color: var(--color-primario);
   font-size: 2rem;
-  /* padding: 20px; */
+  padding: 8px;
 }
 
 main > section > h2 {
+  margin-top: 20px;
+  padding-left: 25px;
   color: var(--color-primario);
   background-color: var(--color-secundario);
   font-size: 1.5rem;
 }
-
 main > section > div,
 main > section > ul {
   list-style-position: inside;
   margin: 4vh 4vw;
 }
-
 main > section > ul > li > span,
 main > section > div > p {
   font-weight: bold;
 }
-
 main > section > div {
   display: flex;
 }
 main > section > div > p {
   margin-right: 20px;
+}
+
+footer {
+  background-color: var(--color-primario);
+  color: #fff;
+  text-align: center;
+  height: 5vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+footer > p {
+  display: inline;
+  margin: 0px 6px;
 }
